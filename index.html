@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print-Reverse-Number- String</title>
+</head>
+<body>
+
+    <script>
+
+    // ---------Number reverse string
+
+    let num=parseInt(prompt("Enter Your Number"));
+    let sum=0;
+    while(num>0){
+        Remainder=num%10;
+        num=(num-Remainder)/10;
+        sum=(sum*10)+Remainder;
+    
+       if(Remainder==0){
+        document.write(" Zero");
+       }
+       else if(Remainder==1){
+        document.write(" One");
+       }
+       else if(Remainder==2){
+        document.write(" Two");
+       }
+       else if(Remainder==3){
+        document.write(" Three");
+       }
+       else if(Remainder==4){
+        document.write(" Four");
+       }
+       else if(Remainder==5){
+        document.write(" Five");
+       }
+       else if(Remainder==6){
+        document.write(" Six");
+       }
+       else if(Remainder==7){
+        document.write(" Seven");
+       }
+       else if(Remainder==8){
+        document.write(" Eight");
+       }
+       else if(Remainder==9){
+        document.write(" Nine");
+       }
+    }
+
+
+    </script>
+    
+</body>
+</html>
